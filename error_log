@@ -1,0 +1,1 @@
+[10-Feb-2018 04:11:59 UTC] PHP Fatal error:  Call to undefined method Producto_model::get_opiniones_facebook() in /home/f41mubv0hkbp/public_html/application/controllers/Home.php on line 16

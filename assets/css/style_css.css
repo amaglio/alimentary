@@ -1,0 +1,297 @@
+body
+{
+    font-size: 16px;
+    /*font-family: 'Cormorant Garamond:400,600 ', serif !important;*/
+    font-family: 'Nanum Myeongjo:400,500,600', serif;
+}
+
+label
+{
+    font-weight: bold;
+}
+
+label.error
+{
+    color:red;
+    font-size: 12px;
+}
+
+img.thumbnail
+{
+    width: inherit;
+    min-height: 150px;
+    border-color: #b587385c !important
+}
+
+
+.div_buscador
+{
+    padding: 1.25rem;
+   /* margin-top: 1.25rem; */
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    /*border-left-width: .25rem;*/
+    border-radius: .25rem
+}
+
+.div_row
+{
+    padding: 1.25rem;
+    /*margin-top: 1.25rem;*/
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    /*border-left-width: .25rem;*/
+    border-radius: .25rem
+}
+
+.form-group
+{
+    margin-bottom: 0px;
+}
+
+.div_contacto_form{
+    margin-bottom: 10px;
+
+}
+
+.active
+{
+    color: #b58738;
+}
+
+.list-control
+{
+    position: relative;
+}
+
+
+a.link_menu:hover 
+{ 
+    color: #b58738;
+    text-decoration: none;
+}
+
+h5  {
+    color: #b58738;
+}
+
+.btn-primary {
+       color: #fff;
+    background-color: #b68838;
+    border-color: #826027;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #a97d32;
+    border-color: #694e03;
+}
+
+/* Navbar */
+
+
+    .link_menu{
+        color: #000;
+        font-weight: bold;
+    }
+
+    li.nav-item 
+    {
+        padding: 10px 20px !important;
+        border-left: 1px solid #9a710052
+    }
+
+    a.link_menu.active  
+    {
+        color: #b58738 !important;
+    }
+
+    .bg-light 
+    {
+        background-color: white !important;
+    }
+
+    .fa
+    {
+        color: #b58738 !important;
+    }
+    
+    .fab
+    {
+        color: #b58738 !important;
+    }
+
+    .far
+    {
+        color: #b58738 !important;
+    }
+
+
+/* --- FOOTER --- */
+        
+    #footer_link
+    {
+        background-color: #212529;
+        color:#FFF;
+    }
+
+    #footer_redes
+    {
+        background-color: #131417;
+        color:#FFF;
+    }
+
+    .footer_seccion
+    {
+        color: #b58738 !important;
+        padding-top: 10px;
+    }
+
+    .footer_link_util
+    {
+        color: white !important;
+    }
+
+    .link_menu{
+        color: #000;
+        font-weight: bold;
+        font-size: 14px;
+    font-weight: 500;
+    }
+
+    .foto_historia
+    {
+        width: inherit;
+        height: 320px;
+    }
+
+    .img-spa-historia
+    {
+         width: inherit;
+        height: 250px;
+    }
+
+/* --- END FOOTER --- */
+
+li.nav-item 
+{
+    padding: 10px 20px !important;
+    border-left: 1px solid #9a710052
+}
+
+a.link_menu.active  
+{
+    color: #b58738 !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+    font-size: 12px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+}
+
+a.btn_home
+{
+    padding: 5px;
+    font-size: 13px !important;
+    background-color: #dedede  !important;
+    color: black;
+}
+
+a.btn_home:hover{
+    background-color: #c1c0c0  !important
+}
+
+.btn_home:hover 
+{
+    background-color: #98700057;
+}
+
+a[class="item_nombre"] 
+{ 
+  font-size: 1.1rem; 
+  color: #b58738;  
+}
+
+a:hover[class="item_nombre"] 
+{ 
+background-color: #b587383b;
+
+}
+
+a:hover[class="iconos_footer"] 
+{ 
+    color: #5f4716 !important ;
+}
+
+/* varios */ 
+.active{
+    color: #b58738;
+}
+
+.list-control{
+      position: relative;
+}
+
+a.link_menu:hover { 
+    color: #b58738;
+    text-decoration: none;
+}
+
+h5{
+   color: #b58738;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.btn-primary {
+        color: #fff;
+background-color: #b68838;
+/*border-color: #826027;*/
+    border-color: #8260274d;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #a97d32;
+    border-color: #694e03;
+}
+
+.row_resultado
+{
+    background-color: #b8882142; font-size: 18px; color: #826528; padding: 10px !important;
+}
+
+.avales{
+    margin-bottom: 10px;: 
+}
+
+.btn-ver-programa{
+    padding: 3px 10px;
+    font-size: 14px;
+}
+
+
+/*----- MEDIA ----- */
+
+@media (max-width: 768px) {
+
+
+    h5#titulo_curso{
+         padding-top: 20px;
+    }
+
+    a.btn_home {
+        margin: 20px;
+    }
+}
